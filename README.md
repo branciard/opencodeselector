@@ -6,12 +6,12 @@ Switch between vanilla OpenCode and OhMyOpenCode profiles. Linux & macOS.
 
 ```bash
 # 1. Put the script in your PATH
-cp chooseopencode.sh ~/.local/bin/chooseopencode
-chmod +x ~/.local/bin/chooseopencode
+cp opencodeselector.sh ~/.local/bin/opencodeselector
+chmod +x ~/.local/bin/opencodeselector
 
 # 2. Add to ~/.bashrc or ~/.zshrc
 export OPENCODE_HOME="$HOME/my-project"   # where your package.json / node_modules live
-alias oc="chooseopencode"
+alias oc="opencodeselector"
 
 # 3. Reload
 source ~/.bashrc
